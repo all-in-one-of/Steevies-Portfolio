@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraSwitch : MonoBehaviour {
+public class CameraForPortfolio : MonoBehaviour {
 
 
     public float smoothing = 7f;

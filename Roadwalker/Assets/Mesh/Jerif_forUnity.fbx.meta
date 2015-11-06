@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 557403e1982962142879db764e05a3cc
+timeCreated: 1446832056
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group1
+    100002: group2
+    100004: Jerif_Body_Mesh
+    100006: Jerif_Eyes_Mesh
+    100008: //RootNode
+    100010: Jerif_Helmet_Mesh
+    100012: Jerif_Nails_Mesh
+    100014: Jerif_Teeth_Mesh
+    100016: pCube1
+    100018: pCube10
+    100020: pCube11
+    100022: pCube12
+    100024: pCube13
+    100026: pCube14
+    100028: pCube15
+    100030: pCube2
+    100032: pCube4
+    100034: pCube5
+    100036: pCube6
+    100038: pCube7
+    100040: pCube8
+    100042: pCube9
+    100044: pSphere1
+    100046: pSphere1 1
+    100048: pSphere10
+    100050: pSphere11
+    100052: pSphere12
+    100054: pSphere13
+    100056: pSphere14
+    100058: pSphere15
+    100060: pSphere2
+    100062: pSphere3
+    100064: pSphere4
+    100066: pSphere5
+    100068: pSphere6
+    100070: pSphere7
+    100072: pSphere8
+    100074: pSphere9
+    100076: transform1
+    100078: transform10
+    100080: transform11
+    100082: transform12
+    100084: transform13
+    100086: transform14
+    100088: transform15
+    100090: transform16
+    100092: transform17
+    100094: transform18
+    100096: transform19
+    100098: transform2
+    100100: transform20
+    100102: transform21
+    100104: transform22
+    100106: transform23
+    100108: transform24
+    100110: transform25
+    100112: transform26
+    100114: transform27
+    100116: transform28
+    100118: transform29
+    100120: transform3
+    100122: transform4
+    100124: transform5
+    100126: transform6
+    100128: transform7
+    100130: transform8
+    100132: transform9
+    400000: group1
+    400002: group2
+    400004: Jerif_Body_Mesh
+    400006: Jerif_Eyes_Mesh
+    400008: //RootNode
+    400010: Jerif_Helmet_Mesh
+    400012: Jerif_Nails_Mesh
+    400014: Jerif_Teeth_Mesh
+    400016: pCube1
+    400018: pCube10
+    400020: pCube11
+    400022: pCube12
+    400024: pCube13
+    400026: pCube14
+    400028: pCube15
+    400030: pCube2
+    400032: pCube4
+    400034: pCube5
+    400036: pCube6
+    400038: pCube7
+    400040: pCube8
+    400042: pCube9
+    400044: pSphere1
+    400046: pSphere1 1
+    400048: pSphere10
+    400050: pSphere11
+    400052: pSphere12
+    400054: pSphere13
+    400056: pSphere14
+    400058: pSphere15
+    400060: pSphere2
+    400062: pSphere3
+    400064: pSphere4
+    400066: pSphere5
+    400068: pSphere6
+    400070: pSphere7
+    400072: pSphere8
+    400074: pSphere9
+    400076: transform1
+    400078: transform10
+    400080: transform11
+    400082: transform12
+    400084: transform13
+    400086: transform14
+    400088: transform15
+    400090: transform16
+    400092: transform17
+    400094: transform18
+    400096: transform19
+    400098: transform2
+    400100: transform20
+    400102: transform21
+    400104: transform22
+    400106: transform23
+    400108: transform24
+    400110: transform25
+    400112: transform26
+    400114: transform27
+    400116: transform28
+    400118: transform29
+    400120: transform3
+    400122: transform4
+    400124: transform5
+    400126: transform6
+    400128: transform7
+    400130: transform8
+    400132: transform9
+    2300000: Jerif_Body_Mesh
+    2300002: Jerif_Eyes_Mesh
+    2300004: Jerif_Helmet_Mesh
+    2300006: Jerif_Nails_Mesh
+    2300008: Jerif_Teeth_Mesh
+    2300010: pSphere15
+    3300000: Jerif_Body_Mesh
+    3300002: Jerif_Eyes_Mesh
+    3300004: Jerif_Helmet_Mesh
+    3300006: Jerif_Nails_Mesh
+    3300008: Jerif_Teeth_Mesh
+    3300010: pSphere15
+    4300000: Jerif_Body_Mesh
+    4300002: Jerif_Nails_Mesh
+    4300004: Jerif_Eyes_Mesh
+    4300006: Jerif_Teeth_Mesh
+    4300008: Jerif_Helmet_Mesh
+    4300010: pSphere15
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
