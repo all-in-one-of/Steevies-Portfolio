@@ -7,6 +7,7 @@ public class CameraSwitch : MonoBehaviour {
     public Transform newRot;
 
     public float smoothing;
+    public float speed;
 
     public GameObject theCamera; 
 
@@ -27,9 +28,9 @@ public class CameraSwitch : MonoBehaviour {
 
     IEnumerator MoveToPosition(GameObject viewer, Vector3 target, Transform newRotation)
     {
-        while (Vector3.Distance(viewer.transform.position, target) > 0.05f)
+        while (Vector3.MoveTowards(viewer.transform.position, target, speed) != target)
         {
-            viewer.transform.position = target; //Vector3.Lerp(transform.position, target, Time.deltaTime);
+            //viewer.transform.position = target; //Vector3.Lerp(transform.position, target, Time.deltaTime);
             viewer.transform.LookAt(newRotation);
 
             yield return null;
