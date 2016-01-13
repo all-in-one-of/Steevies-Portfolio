@@ -18,6 +18,7 @@ public class NextItem : MonoBehaviour {
 	}
 
 	public void NextObject (){
+        print("Button clicked.");
 		if (currentObject < pObjects.Length) {
 			pObjects[currentObject].SetActive(false);
 			currentObject++;
@@ -26,7 +27,8 @@ public class NextItem : MonoBehaviour {
 	}
 
 	public void PreviousObject() {
-		if (currentObject > 0) {
+        print("Button clicked.");
+        if (currentObject > 0) {
 			pObjects[currentObject].SetActive(false);
 			currentObject--;
 			pObjects[currentObject].SetActive(true);

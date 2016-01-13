@@ -3,35 +3,37 @@ using System.Collections;
 
 public class CameraSwitch : MonoBehaviour {
 
-    public Vector3 newPosition;
-    public Transform newRot;
+    public GameObject newPosition;
 
     public float smoothing;
     public float speed;
-
-    public GameObject theCamera; 
+    private float step; 
 
 	// Use this for initialization
 	void Start () {
         
-        theCamera = GameObject.Find("Main Camera");
+        //theCamera = GameObject.Find("Main Camera");
         smoothing = 2.0f;
 	
 	}
 
+    void Update()
+    {
+        step = speed * Time.deltaTime;
+    }
+
     public void SwithPositions()
     {
-        StartCoroutine( MoveToPosition (theCamera, newPosition, newRot));
-        StopAllCoroutines();
+        StartCoroutine( MoveToPosition (gameObject.transform.position, newPosition.transform.position));
+        //StopAllCoroutines();
 
     }
 
-    IEnumerator MoveToPosition(GameObject viewer, Vector3 target, Transform newRotation)
+    IEnumerator MoveToPosition(Vector3 oldPos, Vector3 target)
     {
-        while (Vector3.MoveTowards(viewer.transform.position, target, speed) != target)
+        while (oldPos != target)
         {
-            //viewer.transform.position = target; //Vector3.Lerp(transform.position, target, Time.deltaTime);
-            viewer.transform.LookAt(newRotation);
+            Vector3.MoveTowards(oldPos, target, step);
 
             yield return null;
         }
