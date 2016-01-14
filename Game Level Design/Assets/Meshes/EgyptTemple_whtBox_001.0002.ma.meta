@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: be985a4cc963f9144b211d84e9d14733
+timeCreated: 1452732619
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: conceptRef_Plane
+    100002: EgyptCube_mesh
+    100004: //RootNode
+    100006: FirePit_mesh
+    100008: floor_mesh
+    100010: humanScale_mesh
+    100012: pSphere1
+    100014: pSphere2
+    100016: transform1
+    100018: transform2
+    400000: conceptRef_Plane
+    400002: EgyptCube_mesh
+    400004: //RootNode
+    400006: FirePit_mesh
+    400008: floor_mesh
+    400010: humanScale_mesh
+    400012: pSphere1
+    400014: pSphere2
+    400016: transform1
+    400018: transform2
+    2300000: conceptRef_Plane
+    2300002: EgyptCube_mesh
+    2300004: FirePit_mesh
+    2300006: floor_mesh
+    2300008: humanScale_mesh
+    3300000: conceptRef_Plane
+    3300002: EgyptCube_mesh
+    3300004: FirePit_mesh
+    3300006: floor_mesh
+    3300008: humanScale_mesh
+    4300000: EgyptCube_mesh
+    4300002: humanScale_mesh
+    4300004: conceptRef_Plane
+    4300006: floor_mesh
+    4300008: FirePit_mesh
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: cb5ce0d5781176144b271e079d5118d2
+timeCreated: 1452732619
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: conceptRef_Plane
+    100002: EgyptCube_mesh
+    100004: //RootNode
+    100006: FirePit_mesh
+    100008: floor_mesh
+    100010: humanScale_mesh
+    100012: pCube1
+    100014: pCube10
+    100016: pCube11
+    100018: pCube12
+    100020: pCube2
+    100022: pCube3
+    100024: pCube4
+    100026: pCube5
+    100028: pCube6
+    100030: pCube7
+    100032: pCube8
+    100034: pCube9
+    100036: pSphere1
+    100038: pSphere2
+    100040: transform1
+    100042: transform2
+    100044: pCube13
+    100046: pCube14
+    100048: transform3
+    100050: transform4
+    400000: conceptRef_Plane
+    400002: EgyptCube_mesh
+    400004: //RootNode
+    400006: FirePit_mesh
+    400008: floor_mesh
+    400010: humanScale_mesh
+    400012: pCube1
+    400014: pCube10
+    400016: pCube11
+    400018: pCube12
+    400020: pCube2
+    400022: pCube3
+    400024: pCube4
+    400026: pCube5
+    400028: pCube6
+    400030: pCube7
+    400032: pCube8
+    400034: pCube9
+    400036: pSphere1
+    400038: pSphere2
+    400040: transform1
+    400042: transform2
+    400044: pCube13
+    400046: pCube14
+    400048: transform3
+    400050: transform4
+    2300000: conceptRef_Plane
+    2300002: EgyptCube_mesh
+    2300004: FirePit_mesh
+    2300006: floor_mesh
+    2300008: humanScale_mesh
+    2300010: pCube1
+    2300012: pCube10
+    2300014: pCube11
+    2300016: pCube12
+    2300018: pCube2
+    2300020: pCube3
+    2300022: pCube4
+    2300024: pCube5
+    2300026: pCube6
+    2300028: pCube7
+    2300030: pCube8
+    2300032: pCube9
+    2300034: pCube14
+    3300000: conceptRef_Plane
+    3300002: EgyptCube_mesh
+    3300004: FirePit_mesh
+    3300006: floor_mesh
+    3300008: humanScale_mesh
+    3300010: pCube1
+    3300012: pCube10
+    3300014: pCube11
+    3300016: pCube12
+    3300018: pCube2
+    3300020: pCube3
+    3300022: pCube4
+    3300024: pCube5
+    3300026: pCube6
+    3300028: pCube7
+    3300030: pCube8
+    3300032: pCube9
+    3300034: pCube14
+    4300000: EgyptCube_mesh
+    4300002: humanScale_mesh
+    4300004: conceptRef_Plane
+    4300006: floor_mesh
+    4300008: FirePit_mesh
+    4300010: pCube1
+    4300012: pCube2
+    4300014: pCube3
+    4300016: pCube4
+    4300018: pCube5
+    4300020: pCube6
+    4300022: pCube7
+    4300024: pCube8
+    4300026: pCube9
+    4300028: pCube10
+    4300030: pCube11
+    4300032: pCube12
+    4300034: pCube14
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
