@@ -31,6 +31,15 @@ ModelImporter:
     100046: pCube14
     100048: transform3
     100050: transform4
+    100052: pCube15
+    100054: pCube16
+    100056: pCube17
+    100058: transform10
+    100060: transform5
+    100062: transform6
+    100064: transform7
+    100066: transform8
+    100068: transform9
     400000: conceptRef_Plane
     400002: EgyptCube_mesh
     400004: //RootNode
@@ -57,6 +66,15 @@ ModelImporter:
     400046: pCube14
     400048: transform3
     400050: transform4
+    400052: pCube15
+    400054: pCube16
+    400056: pCube17
+    400058: transform10
+    400060: transform5
+    400062: transform6
+    400064: transform7
+    400066: transform8
+    400068: transform9
     2300000: conceptRef_Plane
     2300002: EgyptCube_mesh
     2300004: FirePit_mesh
@@ -75,6 +93,9 @@ ModelImporter:
     2300030: pCube8
     2300032: pCube9
     2300034: pCube14
+    2300036: pCube15
+    2300038: pCube16
+    2300040: pCube17
     3300000: conceptRef_Plane
     3300002: EgyptCube_mesh
     3300004: FirePit_mesh
@@ -93,6 +114,9 @@ ModelImporter:
     3300030: pCube8
     3300032: pCube9
     3300034: pCube14
+    3300036: pCube15
+    3300038: pCube16
+    3300040: pCube17
     4300000: EgyptCube_mesh
     4300002: humanScale_mesh
     4300004: conceptRef_Plane
@@ -111,6 +135,9 @@ ModelImporter:
     4300030: pCube11
     4300032: pCube12
     4300034: pCube14
+    4300036: pCube15
+    4300038: pCube16
+    4300040: pCube17
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -168,8 +195,10 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
