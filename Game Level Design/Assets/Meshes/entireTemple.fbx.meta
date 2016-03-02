@@ -227,6 +227,7 @@ ModelImporter:
     4300082: EntrywayMesh1
     4300084: EntrywayMesh2
     4300086: EntrywayMesh3
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
