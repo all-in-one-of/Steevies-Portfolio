@@ -1,18 +1,25 @@
 fileFormatVersion: 2
 guid: e2400f80a52444763967bf492878bc2d
-timeCreated: 1457654204
+timeCreated: 1457713229
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
   - serializedVersion: 16
-    name: BasicClay
-    prototypeName: BasicClay
-    shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
+    name: Flower_n_Pedestal
+    prototypeName: Flower_n_Pedestal
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     - name: $pixelsize
       value:
         scalar[0]: 1
@@ -24,6 +31,41 @@ SubstanceImporter:
       value:
         scalar[0]: 0
         scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: flower_scale
+      value:
+        scalar[0]: 3
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 3
+        texture: {instanceID: 0}
+    - name: offset
+      value:
+        scalar[0]: 0.006
+        scalar[1]: -0.5
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: flower_red_paint
+      value:
+        scalar[0]: 0.913725
+        scalar[1]: 0.0761425
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: flower_blue_paint
+      value:
+        scalar[0]: 0
+        scalar[1]: 0.4
+        scalar[2]: 1
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: floer_offset
+      value:
+        scalar[0]: 0
+        scalar[1]: 1.27
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
@@ -49,7 +91,7 @@ SubstanceImporter:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 1, y: -1}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -95,10 +137,10 @@ SubstanceImporter:
             offset: {x: 0, y: 0}
         data:
           first:
-            name: _SpecGlossMap
+            name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 1, y: -1}
             offset: {x: 0, y: 0}
       floats:
         data:
@@ -145,6 +187,10 @@ SubstanceImporter:
           first:
             name: _Mode
           second: 0
+        data:
+          first:
+            name: _Metallic
+          second: 0
       colors:
         data:
           first:
@@ -154,22 +200,18 @@ SubstanceImporter:
           first:
             name: _Color
           second: {r: 1, g: 1, b: 1, a: 1}
-        data:
-          first:
-            name: _SpecColor
-          second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     textureParameters:
-    - name: BasicClay_diffuse
+    - name: Flower_n_Pedestal_basecolor
       alphaSource: 6
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: BasicClay_normal
+    - name: Flower_n_Pedestal_normal
       alphaSource: 0
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: BasicClay_specular
+    - name: Flower_n_Pedestal_metallic
       alphaSource: 7
       filterMode: 1
       aniso: 1
@@ -178,15 +220,15 @@ SubstanceImporter:
     - shaderProp:
         name: _MainTex
       material: {instanceID: 0}
-      baseUID: 554190956
+      baseUID: 1679921281
     - shaderProp:
         name: _BumpMap
       material: {instanceID: 0}
-      baseUID: 554190958
+      baseUID: 1679921283
     - shaderProp:
-        name: _SpecGlossMap
+        name: _MetallicGlossMap
       material: {instanceID: 0}
-      baseUID: 554190952
+      baseUID: 1679921287
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
@@ -372,10 +414,6 @@ SubstanceImporter:
         name: _BumpMap
       material: {instanceID: 0}
       baseUID: 2332579102
-    - shaderProp:
-        name: _SpecGlossMap
-      material: {instanceID: 0}
-      baseUID: 2332579096
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
@@ -407,17 +445,24 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: Wheat_Scale
       value:
-        scalar[0]: 3.38
+        scalar[0]: 7.3
         scalar[1]: 0
         scalar[2]: 0
-        scalar[3]: 3.41
+        scalar[3]: 7.5
         texture: {instanceID: 0}
     - name: Wheat_Location
       value:
         scalar[0]: 0
-        scalar[1]: 0.155
+        scalar[1]: 0.329
         scalar[2]: 0
         scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: BluePaint
+      value:
+        scalar[0]: 0.117952
+        scalar[1]: 0.209384
+        scalar[2]: 0.509804
+        scalar[3]: 1
         texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
