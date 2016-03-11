@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5e11cfe9137bf2241b524156ae3245c6
-timeCreated: 1457713417
+timeCreated: 1457736156
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -33,6 +33,34 @@ SubstanceImporter:
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: StoneShadow
+      value:
+        scalar[0]: 0.39705884
+        scalar[1]: 0.37095886
+        scalar[2]: 0.30947232
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: StoneHighlight
+      value:
+        scalar[0]: 0.86764705
+        scalar[1]: 0.8606073
+        scalar[2]: 0.80384946
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: StoneMidtone
+      value:
+        scalar[0]: 0.64705884
+        scalar[1]: 0.6208527
+        scalar[2]: 0.54714537
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Red_Paint
+      value:
+        scalar[0]: 0.352941
+        scalar[1]: 0.102647
+        scalar[2]: 0.0525978
+        scalar[3]: 1
         texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
@@ -229,6 +257,34 @@ SubstanceImporter:
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: StoneShadow
+      value:
+        scalar[0]: 0.39705884
+        scalar[1]: 0.37095886
+        scalar[2]: 0.30947232
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: StoneHighlight
+      value:
+        scalar[0]: 0.86764705
+        scalar[1]: 0.8606073
+        scalar[2]: 0.80384946
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: StoneMidtone
+      value:
+        scalar[0]: 0.64705884
+        scalar[1]: 0.6208527
+        scalar[2]: 0.54714537
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Red_Paint
+      value:
+        scalar[0]: 0.352941
+        scalar[1]: 0.102647
+        scalar[2]: 0.0525978
+        scalar[3]: 1
         texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
