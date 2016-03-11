@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e2400f80a52444763967bf492878bc2d
-timeCreated: 1456965842
+timeCreated: 1457654204
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -198,7 +198,7 @@ SubstanceImporter:
     name: PillarPaint
     prototypeName: PillarPaint
     shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
+    shaderKeywords: _NORMALMAP _SPECGLOSSMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -239,7 +239,7 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
+            offset: {x: 0, y: -0.31}
         data:
           first:
             name: _DetailNormalMap
@@ -288,7 +288,7 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
+            offset: {x: 0, y: -0.31}
       floats:
         data:
           first:
